@@ -1,0 +1,17 @@
+
+    .container {
+        display: flex; /* Flexbox 레이아웃 사용 */
+        align-items: center; /* 세로 중앙 정렬 */
+        margin: 10px; /* 간격 설정 */
+    }
+
+    .container img {
+        width: 500px; /* 이미지 크기 */
+        height: auto; /* 세로 비율 유지 */
+        margin-right: 20px; /* 설명과의 간격 설정 */
+    }
+
+    .description {
+        font-size: 14px; /* 설명 글꼴 크기 */
+        color: #333; /* 설명 글꼴 색상 */
+    }

@@ -1,0 +1,38 @@
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #dddddd;
+        text-align: center;
+        padding: 8px;
+        transition: background-color 0.3s, color 0.3s; /* 변화에 애니메이션 추가 */
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    td[rowspan] {
+        vertical-align: middle;
+    }
+    .monday {
+        background-color: #cfe2f3; /* light blue */
+    }
+    .tuesday {
+        background-color: #d9ead3; /* light green */
+    }
+    .wednesday {
+        background-color: #fff2cc; /* light yellow */
+    }
+    .thursday {
+        background-color: #fadbd8; /* light red */
+    }
+    .friday {
+        background-color: #fde9d9; /* light orange */
+    }
+
+    /* 마우스를 올렸을 때 배경색과 글자색 변경 */
+    td:hover {
+        background-color: #f0f0f0; /* light grey */
+        color: #0015ff; /* black */
+    }

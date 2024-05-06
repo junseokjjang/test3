@@ -1,0 +1,28 @@
+
+    .container {
+        position: relative;
+        text-align: center;
+        display: inline-block; /* 이미지를 가로로 배열 */
+        margin: 10px; /* 이미지 간격 설정 */
+    }
+
+    .container img {
+        width: 400px; /* 이미지 크기 조정 */
+        height: auto; /* 가로 세로 비율 유지 */
+    }
+
+    .description {
+        position: absolute;
+        bottom: -50px; /* 설명이 아래에 나오도록 위치 조정 */
+        left: 50%; /* 가운데 정렬 */
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.5); /* 배경색 및 투명도 설정 */
+        color: white;
+        padding: 10px;
+        visibility: hidden; /* 초기에는 숨김 */
+        width: 300px; /* 설명 너비 조정 */
+    }
+
+    .container:hover .description {
+        visibility: visible; /* 마우스 호버 시 보이게 함 */
+    }
